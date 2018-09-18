@@ -15,10 +15,14 @@ Et quelques ajouts permis grace au passage sur ordinateur:
 En ce qui concerne les différentes bombes et cartes, n'hésitez pas à aller voir les règles dans les options du jeu.
 
 #### Conception
-Le jeu à été codé en C avec la librairie graphique SDL, par un groupe de 2 programmeurs. A l'exeption du fond en bois, l'intégralité des assets graphiques ont été conçus pour ce jeu.
+Le jeu a été codé en C avec la librairie graphique SDL, par un groupe de 2 programmeurs. A l'exeption du fond en bois, l'intégralité des assets graphiques ont été conçus pour ce jeu.
 
 ## Gauntlet
 
 ## IndianaBot
+IndianaBot est un jeu textuel ou vous incarnez un explorateur, qui doit contrôler par ordinateur, un petit robot, lors de l'exploration d'un temple. Le but du jeu est de trouver un éventuel trésors dissimulé quelque part dans le temple. Afin de réussir cet objectif, il faut entrer des commandes simples dans l'ordinateur (go, open, look, ...), pour que le robot les exécute. Mais attention, le robot possède une petite batterie, et si vous ne le ramener pas régulièrement vers vous, il risque de tomber à cours de batterie, et le jeu sera perdu.
+
+#### Conception
+Le jeu a été codé en Java, sans graphisme (c'est un jeu en console), par un groupe de deux programmeurs.
 
 ## BattleShip_Chatroom
