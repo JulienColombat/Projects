@@ -15,7 +15,7 @@ Et quelques ajouts permis grâce au passage sur ordinateur:
 En ce qui concerne les différentes bombes et cartes, n'hésitez pas à aller voir les règles dans les options du jeu.
 
 #### Réalisation
-Le jeu a été codé en C avec la librairie graphique SDL, par un groupe de 2 programmeurs. A l'exception du fond en bois, l'intégralité des assets graphiques ont été conçus pour ce jeu.
+Le jeu a été codé en C avec la bibliothèque graphique SDL, par un groupe de 2 programmeurs. A l'exception du fond en bois, l'intégralité des assets graphiques ont été conçus pour ce jeu.
 
 ## Gauntlet
 Gauntlet est une reprise du jeu d'arcade du même nom, sorti en 1985. C'est un jeu du genre Hack'n'slash, dans un style héroïque fantasy, jouable jusqu'à 4 joueurs. Il est possible de jouer à plusieurs sur une même machine, mais la caméra suivra uniquement le joueur principal, ou alors, il est aussi possible de jouer sur plusieurs machines, en créant un serveur de jeu.
@@ -28,7 +28,7 @@ Le jeu a été pensé pour être très modulaire, avec par exemple la possibilit
 Pour plus de détails, n'hésitez pas à lire le manuel utilisateur fourni avec le jeu.
 
 #### Réalisation
-Le jeu a été codé en Java, avec la librairie graphique JavaFX, par un groupe de 7 programmeurs. Les assets graphiques du thème "old" sont les sprites du jeu d'origine (1985). Pour le thème "classique", la plupart des sprites ont été refait, à l'exception des héros et des monstres.
+Le jeu a été codé en Java, avec la bibliothèque graphique JavaFX, et la bibliothèque JavaRMI, pour la partie réseau. Il a été réalisé par un groupe de 7 programmeurs. Les assets graphiques du thème "old" sont les sprites du jeu d'origine (1985). Pour le thème "classique", la plupart des sprites ont été refait, à l'exception des héros et des monstres.
 
 ## IndianaBot
 IndianaBot est un jeu textuel ou vous incarnez un explorateur, qui doit contrôler par ordinateur, un petit robot, lors de l'exploration d'un temple. Le but du jeu est de trouver un éventuel trésor dissimulé quelque part dans le temple. Afin de réussir cet objectif, il faut entrer des commandes simples dans l'ordinateur (go, open, look, ...), pour que le robot les exécute. Mais attention, le robot possède une petite batterie, et si vous ne le ramener pas régulièrement vers vous, il risque de tomber à cours de batterie, et le jeu sera perdu.
@@ -37,3 +37,13 @@ IndianaBot est un jeu textuel ou vous incarnez un explorateur, qui doit contrôl
 Le jeu a été codé en Java, sans graphisme (c'est un jeu en console), par un groupe de deux programmeurs.
 
 ## BattleShip_Chatroom
+BattleShip_Chatroom est à la base un logiciel de discussion, disposant de différents salon de discutions, créés par les utilisateurs. Ce logiciel a été amélioré par l'ajout d'une partie de bataille navale dans chaque salon de discussion. Les deux premières personnes a se connecter au salon se retrouvent à jouer l'une contre l'autre, les autres utilisateurs du salon sont alors spectateurs. Ils ne connaissent alors la disposition des bateaux d'aucun des deux joueurs.
+
+Il est possible de joueur grâce à des messages spécifiques dans le chat, précédés d'un slash ('/'), ou bien en interagissant directement avec les grilles à dispositions.
+
+Les règles du jeu sont simples, ce sont les même que la bataille navale. Il faut placer ses bateaux sur la grille, et à tour de rôle, les joueurs tirent sur une case pour essayer de détruire les bateaux adverses. Le premier qui n'a plus de bateaux, a perdu.
+
+Le salon de discussion n'est pas fermé à la fin de la partie, mais lorsque tous ses utilisateurs sont partis. Cela permet aux joueurs, et spectateurs, de continuer de discuter de la partie, ou de toutes autres choses.
+
+#### Réalisation
+Le jeu a été codé en Java, avec la bibliothèque graphique JavaFX, et la bibliothèque JavaRMI, pour le réseau. Il a été réalisé par un groupe de deux programmeurs.
